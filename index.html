@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div id="preloader"></div>
     <div class="hero">
         <div class="navbar">
             <img src="/img/logo.png" alt="logo" class="logo">
@@ -22,10 +23,11 @@
         <div class="content">
             <div class="left">
                 <h1>Unleash your <br>inner beat</h1>
-                <h2>Unleash your inner beat</h2>
+                <div class="header-mobile"><h2>Unleash your inner beat</h2>
+                </div>
             </div>
             <div class="right">
-                <p>Click to play</p>
+                <p id="text">Click to play</p>
                 <img src="img/play.png" alt="play" id="icon">
             </div>
         </div>
@@ -41,11 +43,20 @@
             if(mysong.paused){
                 thesong.play();
                 iconPressed.src="img/pause.png"
+                document.getElementById("text").textContent="Pause";
             } else {
                 thesong.pause();
                 iconPressed.src="img/play.png"
+                document.getElementById("text").textContent="Click to play";
             }
         }
+    </script>
+    <script>
+        var loader = document.getElementById("preloader")
+
+        window.addEventListener("load", function() {
+            loader.style.display = "none";
+        })
     </script>
 </body>
 </html>

@@ -333,7 +333,7 @@
 }
 @media (min-width: 401px) and (max-width: 422px) {
     .content {
-        width: 70%;
+        width: 80%;
         margin-left: 3rem;
     }
 
@@ -342,7 +342,7 @@
         margin: 0;
         padding: 0;
         width: fit-content;
-        margin-left: 3.5rem;
+        margin-left: 2.5rem;
     
       }
   .navbar ul li {
@@ -356,11 +356,11 @@
   }
 
   .navbar ul li a {
-    font-size: 10px;
+    font-size: 13px;
   }
   
   .left {
-    margin-left: 3.5rem;
+    margin-left: 2.1rem;
   }
 
   .left h1 {
@@ -369,18 +369,18 @@
 
   h2 {
     color: #fff;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 30px;
     display: flex;
 }
 
   .right {
     margin-top: 70px;
-    margin-right: 5.2rem;
+    margin-right: 6.4rem;
   }
 
   .right p {
-    font-size: 15px;
+    font-size: 20px;
     color: #fff;
     font-family: sans-serif;
     margin-right: 7px;
@@ -388,15 +388,15 @@
   }
 
   #icon {
-    width: 15px;
+    width: 20px;
     cursor: pointer;
   }
 }
 
 @media (min-width: 423px) and (max-width: 450px) {
     .content {
-        width: 70%;
-        margin-left: 3rem;
+        width: 80%;
+        margin-left: 1.2rem;
     }
 
     .navbar ul {
@@ -404,8 +404,7 @@
         margin: 0;
         padding: 0;
         width: fit-content;
-        margin-left: 3.9rem;
-    
+        margin-left: 3rem;
       }
   .navbar ul li {
     margin: 0 5px;
@@ -418,7 +417,7 @@
   }
 
   .navbar ul li a {
-    font-size: 10px;
+    font-size: 13px;
   }
   
   .left {
@@ -431,18 +430,18 @@
 
   h2 {
     color: #fff;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 30px;
     display: flex;
 }
 
   .right {
     margin-top: 70px;
-    margin-right: 5.4rem;
+    margin-right: 5rem;
   }
 
   .right p {
-    font-size: 15px;
+    font-size: 20px;
     color: #fff;
     font-family: sans-serif;
     margin-right: 7px;
@@ -450,7 +449,7 @@
   }
 
   #icon {
-    width: 15px;
+    width: 20px;
     cursor: pointer;
   }
 }
